@@ -24,7 +24,7 @@ app.use(express.json());
 const userApp = require("./APIs/userApi");
 const ownerApp = require("./APIs/adminOrOwnerApi");
 const complaintApp = require("./APIs/complaintApi");
-const paymentApp = require("./APIs/paymentApi");
+const paymentApp = require("./APIs/paymentsApi");
 const roomsBookingApp = require("./APIs/roomsBookingApi");
 const wardenApp = require("./APIs/wardenApi");
 
